@@ -14,8 +14,6 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
   font-family: "Lexend Deca", sans-serif;
   background-color: var(--ltgray);
 }
@@ -29,8 +27,10 @@ main {
 
 /* styling for entire card component */
 .options-card {
+  width: 100vw;
+  height: 100vh;
   width: 87.2%;
-  max-width: 327px;
+  max-width: 20.44rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ main {
   }
   
 /* styling for heading and text contents */
-h2 {
+h1 {
   color: var(--ltgray);
   font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
@@ -112,15 +112,18 @@ h2 {
 /* Media query for responsive styling */
 @media (min-width: 768px) {
   body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .options-card {
-    max-width: 920px;
-    max-height: 500px;
+    max-width: 57.5rem;
+    max-height: 31.25rem;
     flex-direction: row;
+    align-items: center;
   }
 
   .sedans {
