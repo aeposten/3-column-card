@@ -91,7 +91,7 @@ h1 {
 .learn-btn:hover, 
 .learn-btn:focus {
     padding: 0.6em 1.93em;
-    border: 0.2em solid var(--ltgray);
+    border: 0.1em solid var(--ltgray);
     background-color: transparent;
     color: var(--ltgray)
 }
