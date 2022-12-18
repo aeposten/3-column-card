@@ -67,6 +67,7 @@ h1 {
   color: var(--ltgray);
   font-size: 2.5rem;
   font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
 }
 
 .description {
