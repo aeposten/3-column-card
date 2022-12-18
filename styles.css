@@ -28,5 +28,115 @@ font-family: 'Lexend Deca', sans-serif;
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
   background-color: var(--ltgray);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tpwhite);
+}
+
+/* styling for entire card component */
+.options-card {
+  width: 87.2%;
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+/* styling for individual car cards */
+.car-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
+
+/* specific styling for card colors and borders */
+.sedans {
+    background-color: var(--orange);
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+  }
+  
+  .suvs {
+    background-color: var(--cyan);
+  }
+  
+  .luxury {
+    background-color: var(--dkcyan);
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+  }
+  
+/* styling for heading and text contents */
+h1 {
+  color: var(--ltgray);
+  font-size: 2.5rem;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.description {
+  color: var(--tpwhite);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  opacity: 75%;
+  line-height: 1.67;
+}
+
+/* styling for buttons */
+.learn-btn {
+  align-self: flex-start;
+  padding: 0.8em 2.13em;
+  border: none;
+  border-radius: 2em;
+  background-color: var(--ltgray);
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* button font colors */
+.orange {
+  color: var(--orange);
+}
+
+.cyan {
+  color: var(--cyan);
+}
+
+.dkcyan {
+  color: var(--dkcyan);
+}
+
+/* Media query for responsive styling */
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .options-card {
+    max-width: 920px;
+    max-height: 500px;
+    min-height: 500px;
+    flex-direction: row;
+  }
+
+  .sedans {
+    border-bottom-left-radius: 0.5em;
+    border-top-right-radius: 0em;
+  }
+
+  .luxury {
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0em;
+  }
 }
