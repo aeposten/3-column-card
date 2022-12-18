@@ -102,6 +102,14 @@ h1 {
   font-family: "Lexend Deca", sans-serif;
 }
 
+.learn-btn:hover, 
+.learn-btn:focus {
+    padding: 0.6em 1.93em;
+    border: 0.2em solid var(--ltgray);
+    background-color: transparent;
+    color: var(--ltgray)
+}
+
 /* button font colors */
 .orange {
   color: var(--orange);
@@ -126,7 +134,6 @@ h1 {
   .options-card {
     max-width: 920px;
     max-height: 500px;
-    min-height: 500px;
     flex-direction: row;
   }
 
