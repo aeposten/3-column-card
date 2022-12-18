@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-36KSGkG2Jo]https://www.frontendmentor.io/solutions/3column-preview-card-component-36KSGkG2Jo)
 - Live Site URL: [https://aeposten.github.io/3-column-card/](https://aeposten.github.io/3-column-card/)
 
 ## My process
